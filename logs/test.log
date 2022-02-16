@@ -2,3 +2,6 @@ WARNING:root:This will get logged to a file
 Test warning
 Test warning
 error
+error
+error
+insert error

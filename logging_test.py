@@ -2,8 +2,9 @@
 import logging 
 
 log = logging.getLogger("mylogger")
-handler = logging.FileHandler("test.log")
+handler = logging.FileHandler("logs\\test.log")
 
 log.addHandler(handler)
 log.info("info")
 log.error("error")
+log.error("insert error")

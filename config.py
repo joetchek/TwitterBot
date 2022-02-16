@@ -6,7 +6,7 @@ import logging
 #setting up the logging system
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
-handler = logging.FileHandler("config.log")
+handler = logging.FileHandler("logs\\config.log")
 logger.addHandler(handler)
 
 def create_api():

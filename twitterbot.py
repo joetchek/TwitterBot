@@ -28,7 +28,7 @@ def retweet_hashtag(api, query, sleep_time):
 def main():
     api = create_api()
     query = "# jokerrrwordle" #for determining my wordle answers from my main account
-    sleep_time = 360
+    sleep_time = 3
 
     retweet_hashtag(api, query, sleep_time)
 
